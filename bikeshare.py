@@ -163,6 +163,7 @@ def user_stats(df):
     print('The counts of different types of users are listed below:\n{}'.format(counts_of_user_types))
 
     # TO DO: Display counts of gender
+    # no gender data for washington
 
     if 'Gender' in df.keys():
         genders = df[('Gender')].value_counts()
@@ -172,6 +173,7 @@ def user_stats(df):
 
 
     # TO DO: Display earliest, most recent, and most common year of birth
+    # no birth data for washington
 
     if 'Birth Year' in df.keys():
         oldest = int(df[('Birth Year')].min())
