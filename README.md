@@ -11,3 +11,8 @@ This project is about analysing the Bikeshare data of 3 major cities in the unit
 new_york_city.csv
 chicago.csv
 washington.csv
+
+### Used libraries in python
+pandas
+numpy
+time
