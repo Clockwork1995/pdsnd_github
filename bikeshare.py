@@ -144,8 +144,8 @@ def trip_duration_stats(df):
 
     # TO DO: display mean travel time
     mean_time_of_travel = df[('Trip Duration')].mean()
-    mean_time_of_travel_in_hours = mean_time_of_travel/(60*60)
-    print('The mean time of travel in hours is: {}'.format(mean_time_of_travel_in_hours), 'hours')
+    mean_time_of_travel_in_minutes = mean_time_of_travel/60
+    print('The mean time of travel in minutes is: {}'.format(mean_time_of_travel_in_miutes), 'minutes')
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -163,6 +163,7 @@ def user_stats(df):
     print('The counts of different types of users are listed below:\n{}'.format(counts_of_user_types))
 
     # TO DO: Display counts of gender
+    # no gender data for washington
 
     if 'Gender' in df.keys():
         genders = df[('Gender')].value_counts()
@@ -172,6 +173,7 @@ def user_stats(df):
 
 
     # TO DO: Display earliest, most recent, and most common year of birth
+    # no birth data for washington
 
     if 'Birth Year' in df.keys():
         oldest = int(df[('Birth Year')].min())
