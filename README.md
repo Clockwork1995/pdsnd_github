@@ -1,15 +1,13 @@
 ### Date created
-Include the date you created this project and README file.
+15 July 2019
 
 ### Project Title
-Replace the Project Title
+US Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This project is about analysing the Bikeshare data of 3 major cities in the united states namely new york city, chicago and washington. The project is able to provide the user with stats of this data and also enables the user to filter the data using month and day of the week.
 
 ### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+new_york_city.csv
+chicago.csv
+washington.csv
